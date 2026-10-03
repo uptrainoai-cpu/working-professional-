@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You – Rahman</title>
+    <meta name="theme-color" content="#ec4899">
+    <meta name="robots" content="noindex">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '1533641358531262');
+    fbq('init', '2647593139016702');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1533641358531262&ev=PageView&noscript=1"/></noscript>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=2647593139016702&ev=PageView&noscript=1"/></noscript>
+
+    <style>
+        :root{--pink:#ec4899;--soft-pink:#fdf2f8;--rose:#f43f5e;--dark:#1e293b;--shadow:0 6px 20px rgba(236,72,153,.12);--wa-green:#25D366;--wa-dark:#128C7E}
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:'Inter',sans-serif;background:linear-gradient(135deg,#fff,var(--soft-pink));color:var(--dark);min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:1rem;gap:1rem}
+        .box{background:#fff;border-radius:20px;padding:2.5rem 1.5rem;max-width:520px;width:100%;text-align:center;box-shadow:var(--shadow);border:2px solid rgba(236,72,153,.2)}
+        .gradient-text{background:linear-gradient(135deg,var(--dark),var(--pink));-webkit-background-clip:text;-webkit-text-fill-color:transparent;font-weight:800}
+        .btn-pink{background:linear-gradient(135deg,var(--pink),var(--rose));color:#fff;padding:.7rem 1.6rem;border-radius:50px;font-weight:700;text-decoration:none;display:inline-block;box-shadow:0 6px 15px rgba(236,72,153,.3);border:none;cursor:pointer}
+        .btn-pink:hover{color:#fff;transform:translateY(-2px)}
+        .insta{background:linear-gradient(135deg,#833AB4,#FD1D1D,#F77737);color:#fff;padding:.7rem 1.6rem;border-radius:50px;font-weight:700;text-decoration:none;display:inline-block}
+        .insta:hover{color:#fff;transform:translateY(-2px)}
+        .step{background:var(--soft-pink);border-radius:12px;padding:.8rem 1rem;text-align:left;margin-bottom:.6rem}
+        .form-btn{background:linear-gradient(135deg,var(--wa-green),var(--wa-dark));color:#fff;padding:.85rem 1.8rem;border-radius:50px;font-weight:800;border:none;cursor:pointer;box-shadow:0 8px 20px rgba(37,211,102,.3);font-size:1rem;max-width:520px;width:100%;transition:all .3s}
+        .form-btn:hover{transform:translateY(-3px) scale(1.02)}
+        .form-btn:disabled{opacity:.7;cursor:not-allowed}
+        .backdrop{position:fixed;inset:0;background:rgba(136,14,79,.8);backdrop-filter:blur(8px);z-index:9999;opacity:0;visibility:hidden;transition:all .4s}
+        .backdrop.show{opacity:1;visibility:visible}
+        #formContainer{position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(.9);z-index:10000;max-width:500px;width:90%;max-height:85vh;overflow-y:auto;opacity:0;visibility:hidden;transition:all .4s;background:#fff;border:2px solid #E91E63;border-radius:15px;box-shadow:0 0 40px rgba(233,30,99,.3)}
+        #formContainer.show{opacity:1;visibility:visible;transform:translate(-50%,-50%) scale(1)}
+        .form-control,.form-select{background:#FCE4EC;border:2px solid #F48FB1;color:#880E4F;border-radius:8px;padding:.6rem .9rem}
+        .form-control:focus,.form-select:focus{border-color:#E91E63;box-shadow:0 0 0 4px rgba(233,30,99,.15)}
+
+        .box{position:relative;z-index:2;overflow:hidden;animation:pop .7s cubic-bezier(.2,1.3,.4,1) both}
+        .box::before{content:"";position:absolute;inset:0;border-radius:20px;padding:2px;background:linear-gradient(135deg,#ec4899,#f9a8d4,#ec4899,#c2185b);background-size:300% 300%;animation:borderMove 4s linear infinite;-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;pointer-events:none}
+        @keyframes borderMove{0%{background-position:0% 50%}100%{background-position:300% 50%}}
+        @keyframes pop{from{opacity:0;transform:translateY(30px) scale(.92)}to{opacity:1;transform:none}}
+        .badge-top{display:inline-block;background:linear-gradient(135deg,#ec4899,#c2185b);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:.4rem 1rem;border-radius:50px;margin-bottom:.8rem}
+        .tick{display:block;margin:0 auto .6rem}
+        .tick-c{stroke:#ec4899;stroke-width:3;stroke-dasharray:151;stroke-dashoffset:151;animation:draw .8s .2s forwards}
+        .tick-p{stroke:#ec4899;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:40;stroke-dashoffset:40;animation:draw .5s .9s forwards}
+        @keyframes draw{to{stroke-dashoffset:0}}
+        .step{opacity:0;transform:translateX(-25px);animation:slideIn .6s var(--d) forwards;border-left:4px solid #ec4899}
+        @keyframes slideIn{to{opacity:1;transform:none}}
+        .quote{background:linear-gradient(135deg,#fdf2f8,#fce7f3);border-radius:12px;padding:.8rem 1rem;font-weight:600;font-style:italic;color:#9d174d;font-size:.95rem}
+        .form-btn{position:relative;z-index:2;animation:btnPulse 2.4s infinite}
+        @keyframes btnPulse{0%,100%{box-shadow:0 8px 20px rgba(37,211,102,.3)}50%{box-shadow:0 0 35px rgba(37,211,102,.75)}}
+        .float{position:fixed;bottom:-40px;z-index:1;font-size:1.4rem;opacity:.5;animation:rise linear infinite;pointer-events:none}
+        @keyframes rise{to{transform:translateY(-115vh) rotate(25deg);opacity:0}}
+        #confetti{position:fixed;inset:0;pointer-events:none;z-index:9000}
+        @media(prefers-reduced-motion:reduce){*{animation-duration:.01ms!important}.float{display:none}}
+
+        body{justify-content:flex-start;padding-top:1.2rem;padding-bottom:2rem}
+        .pic{position:relative;z-index:2;width:100%;max-width:520px;border-radius:16px;box-shadow:var(--shadow);display:block}
+        .sec{position:relative;z-index:2;width:100%;max-width:520px}
+        .st{font-size:1.4rem;font-weight:800;color:#C2185B;text-align:center;margin:1rem 0 .9rem}
+        .sg{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+        .sc{display:flex;gap:.6rem;align-items:flex-start;background:#fff;border-radius:12px;padding:.8rem;box-shadow:var(--shadow)}
+        .sc b{display:block;font-size:.85rem;color:#C2185B}.sc small{font-size:.75rem;color:#555;line-height:1.3;display:block}
+        .sn{width:34px;height:34px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,#C2185B,#E91E63);color:#fff;font-weight:800;display:flex;align-items:center;justify-content:center}
+        .cs{display:flex;gap:.6rem;align-items:center;background:#fff;border-radius:10px;padding:.7rem;border-left:4px solid #E91E63;box-shadow:var(--shadow)}
+        .cs b{display:block;font-size:1.3rem;color:#C2185B;line-height:1.2}.cs small{display:block;font-size:.72rem;color:#666}
+        .ci{width:42px;height:42px;flex-shrink:0;border-radius:50%;background:linear-gradient(135deg,#C2185B,#E91E63);display:flex;align-items:center;justify-content:center}
+        .cs.big{display:block;text-align:center;border:2px solid #E91E63;height:100%}
+        .cs.big h3{font-size:.95rem;font-weight:800;color:#C2185B;margin-bottom:.5rem}
+        .cs.big b{margin-top:.3rem}
+        .fq{background:#fff;border-radius:10px;box-shadow:var(--shadow);margin-bottom:.6rem;overflow:hidden}
+        .fq summary{padding:.85rem 1rem;font-weight:600;font-size:.9rem;cursor:pointer;list-style:none;display:flex;justify-content:space-between;gap:.5rem}
+        .fq summary::after{content:"⌄";color:#999}
+        .fq[open] summary{background:linear-gradient(135deg,#FCE4EC,#fff);color:#C2185B}
+        .fq[open] summary::after{content:"⌃"}
+        .fq p{padding:.2rem 1rem 1rem;font-size:.85rem;color:#444;margin:0}
+
+        .hero{position:relative;z-index:2;width:100%;max-width:520px;text-align:center;background:linear-gradient(135deg,#fce4ec,#f9a8d4);border-radius:16px;padding:1.6rem 1rem 1.4rem;box-shadow:var(--shadow)}
+        .hero-badge{display:inline-block;background:linear-gradient(135deg,#E91E63,#C2185B);color:#fff;font-size:.78rem;font-weight:800;letter-spacing:.4px;text-transform:uppercase;padding:.6rem 1.3rem;border-radius:50px;box-shadow:0 8px 20px rgba(233,30,99,.35);margin-bottom:1.1rem}
+        .hero h1{font-family:'Playfair Display',serif;font-weight:800;color:#9d174d;font-size:2.3rem;line-height:1.1;margin:0 0 .7rem}
+        .hero h1 span{font-size:1.4rem;color:#C2185B}
+        .hero p{color:#9d174d;font-size:.95rem;margin:0}
+
+        .foot{position:relative;z-index:2;width:100%;max-width:520px;text-align:center;background:linear-gradient(135deg,#C2185B,#9d174d);color:#fff;border-radius:16px;padding:1.2rem 1rem 1.4rem;box-shadow:var(--shadow)}
+        .foot-24{background:rgba(255,255,255,.14);border-radius:12px;padding:.8rem;margin-bottom:1.1rem}
+        .foot-24 b{display:block;font-size:1rem;margin-bottom:.5rem}
+        .foot-24 div{display:flex;justify-content:space-around;font-size:.82rem;font-weight:600}
+        .foot-pp{display:inline-block;color:#fff;text-decoration:none;font-size:.8rem;font-weight:600;border:1px solid rgba(255,255,255,.7);border-radius:6px;padding:.35rem .8rem;margin-bottom:1rem}
+        .foot-pp:hover{background:rgba(255,255,255,.15);color:#fff}
+        .foot-tag{font-size:.85rem;margin-bottom:.8rem}
+        .foot-name{font-size:1.1rem;font-weight:800;margin-bottom:.4rem}
+        .foot-by{font-size:.8rem;opacity:.9}
+    </style>
+</head>
+<body>
+    <canvas id="confetti"></canvas>
+    <div id="floaters"></div>
+
+    <!-- TOP HEADLINE -->
+    <div class="hero">
+        <div class="hero-badge">🚀 Women-Only Skill Seekers Community</div>
+        <h1>Join 10,000+ Women</h1>
+        <p>Rising Together • From Zero to Online Earner</p>
+    </div>
+
+    <img src="https://i.ibb.co/4nT50BwZ/8f284a4ec3806f27087e9130cdcdc61a-jpg.jpg" alt="Community" class="pic">
+
+    <!-- FORM BUTTON (above Thank You) -->
+    <button type="button" class="form-btn" id="openFormBtn">📝 Fill Your Details</button>
+
+    <div class="box">
+        <div class="badge-top">🎊 Welcome to the Community</div>
+        <svg class="tick" viewBox="0 0 52 52" width="90" height="90"><circle class="tick-c" cx="26" cy="26" r="24" fill="none"/><path class="tick-p" fill="none" d="M14 27l8 8 16-17"/></svg>
+        <h1 class="h2 gradient-text mb-2">Thank You! 💖</h1>
+        <p class="text-muted mb-4">Thanks for filling in your details. Our team will connect with you within 24 hours. 💖</p>
+
+        <div class="mb-4">
+            <div class="step" style="--d:.4s">📋 Your details have been received</div>
+            <div class="step" style="--d:.7s">💬 Our team will message you on WhatsApp</div>
+            <div class="step" style="--d:1s">🚀 Get your complete roadmap to start earning</div>
+        </div>
+
+        <div class="quote">"Empower Women to Empower Themselves" ✨</div>
+    </div>
+
+    <!-- WHAT HAPPENS -->
+    <div class="sec">
+        <h2 class="st">What Happens When You Join?</h2>
+        <div class="sg"><div class="sc"><span class="sn">1</span><div><b>Instant Connection</b><small>Direct access to me</small></div></div><div class="sc"><span class="sn">2</span><div><b>Complete Access</b><small>Proven step-by-step training system</small></div></div><div class="sc"><span class="sn">3</span><div><b>Daily Mentorship</b><small>24/7 support & community access</small></div></div><div class="sc"><span class="sn">4</span><div><b>Start Earning</b><small>Begin from Week 1 confidently</small></div></div></div>
+        <button type="button" class="form-btn mt-3" id="openFormBtn2">🚀 Get Started Now</button>
+    </div>
+
+    <!-- KNOW YOUR COACH -->
+    <div class="sec">
+        <h2 class="st">Know Your Coach</h2>
+        <div class="row g-2 align-items-stretch">
+            <div class="col-6">
+                <div class="cs"><span class="ci">⭐</span><div><b>5+</b><small>Years of Experience</small></div></div>
+                <div class="cs mt-2"><span class="ci">👥</span><div><b>1,000+</b><small>Women Reached</small></div></div>
+            </div>
+            <div class="col-6">
+                <div class="cs big"><h3>🔥 Now it's YOUR time</h3><b>₹1,600,000</b><small>Earned by Women</small><b>300+</b><small>Earning ₹50K–₹1L</small></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FAQ -->
+    <div class="sec">
+        <h2 class="st">Frequently Asked Questions</h2>
+        <details class="fq" open><summary>What kind of work will I be doing?</summary><p>Digital skills: Website Design, Graphics, Editing, Content Creation, Monetization, etc. 100% legitimate.</p></details><details class="fq"><summary>Is this program legitimate & safe?</summary><p>Genuine training. 2000+ women earning consistently. Verify credentials.</p></details><details class="fq"><summary>How much time daily?</summary><p>Just 1-2 hours daily. Flexible for everyone.</p></details><details class="fq"><summary>When will I start earning?</summary><p>Within 1 month. Sustainable income in 1-2 months.</p></details><details class="fq"><summary>Any prior experience needed?</summary><p>No experience needed! Step-by-step guidance provided.</p></details><details class="fq"><summary>What support after joining?</summary><p>Daily mentorship, 24/7 support, weekly calls & women-only community.</p></details><details class="fq"><summary>Any investment required?</summary><p>Nominal fee covers everything. No hidden costs.</p></details><details class="fq"><summary>Can I do this alongside job/studies?</summary><p>Yes! Designed for busy women. Learn in free time.</p></details>
+    </div>
+
+    <img src="https://i.ibb.co/QZLhYNn/cc.jpg" alt="Success" class="pic">
+
+    <!-- BOTTOM FOOTER -->
+    <div class="foot">
+        <div class="foot-24">
+            <b>⏳ Within 24 hours:</b>
+            <div><span>📋 Complete Details</span><span>🗺️ Clear Roadmap</span></div>
+        </div>
+        <a href="#" class="foot-pp">🛡️ Privacy Policy</a>
+        <p class="foot-tag">🌟 Empower with skills • 🌈 Support every vision • 🚀 Dreams to direction</p>
+        <p class="foot-name">💖 With Strength &amp; Sincerity, Rahman</p>
+        <p class="foot-by mb-0">Powered by Adhabits</p>
+    </div>
+
+    <!-- FORM POPUP -->
+    <div class="backdrop" id="backdrop"></div>
+    <div id="formContainer">
+        <div class="p-4 position-relative">
+            <button id="closeFormBtn" class="btn-close position-absolute top-0 end-0 m-3" aria-label="Close"></button>
+            <div class="text-center mb-4">
+                <h2 class="h4 fw-bold mb-1" style="color:#E91E63;">🚀 Start Your Journey</h2>
+                <p class="text-muted small mb-0">Fill details to get started</p>
+            </div>
+            <form id="mainForm" novalidate>
+                <div class="row g-2">
+                    <div class="col-12">
+                        <label class="form-label">Full Name *</label>
+                        <input id="inp_name" type="text" class="form-control" required>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Phone *</label>
+                        <input id="inp_phone" type="tel" class="form-control" required maxlength="10" inputmode="numeric">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Age *</label>
+                        <input id="inp_age" type="number" class="form-control" required min="15" max="65">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label">Gender *</label>
+                        <select id="inp_gender" class="form-select" required>
+                            <option value="female" selected>Female</option>
+                            <option value="male">Male</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label">Profession *</label>
+                        <select id="inp_profession" class="form-select" required>
+                            <option selected>Student</option>
+                            <option>Housewife</option>
+                            <option>Working Professional</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <button type="submit" class="form-btn" id="submitBtn">✅ Submit Details</button>
+                    </div>
+                    <div class="col-12 text-center fw-semibold" id="msg" style="color:#128C7E;display:none;">✅ Details submitted successfully!</div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        /* Confetti + floating hearts */
+        (function(){
+            const c=document.getElementById('confetti'),x=c.getContext('2d');
+            const fit=()=>{c.width=innerWidth;c.height=innerHeight};fit();addEventListener('resize',fit);
+            const cols=['#ec4899','#f9a8d4','#c2185b','#fbbf24','#fff','#f43f5e'];
+            const P=Array.from({length:130},()=>({x:innerWidth/2,y:innerHeight*.35,vx:(Math.random()-.5)*16,vy:-Math.random()*14-4,s:Math.random()*7+4,r:Math.random()*6,vr:(Math.random()-.5)*.4,c:cols[Math.random()*cols.length|0]}));
+            let f=0;(function loop(){x.clearRect(0,0,c.width,c.height);P.forEach(p=>{p.vy+=.35;p.x+=p.vx;p.y+=p.vy;p.r+=p.vr;x.save();x.translate(p.x,p.y);x.rotate(p.r);x.fillStyle=p.c;x.fillRect(-p.s/2,-p.s/4,p.s,p.s/2);x.restore()});if(++f<220)requestAnimationFrame(loop);else x.clearRect(0,0,c.width,c.height)})();
+            const em=['💖','✨','🌸','💫','🎀'],box=document.getElementById('floaters');
+            for(let i=0;i<14;i++){const e=document.createElement('span');e.className='float';e.textContent=em[i%em.length];e.style.left=Math.random()*100+'vw';e.style.animationDuration=(7+Math.random()*7)+'s';e.style.animationDelay=(Math.random()*6)+'s';box.appendChild(e)}
+        })();
+
+        /* NOTE: Lead event ab page load par NAHI jata. Sirf form submit hone ke baad jayega. */
+
+        const SCRIPT_URL="https://script.google.com/macros/s/AKfycbzcIkzTv4ln3nJsa3F_Yll92atFPuyungGCSFLj3D8aRQK7znMouoCl0fWkqsl9GtbF/exec";
+        const backdrop=document.getElementById('backdrop');
+        const formContainer=document.getElementById('formContainer');
+        const mainForm=document.getElementById('mainForm');
+        const submitBtn=document.getElementById('submitBtn');
+        const msg=document.getElementById('msg');
+
+        function openForm(){backdrop.classList.add('show');formContainer.classList.add('show');document.body.style.overflow='hidden';}
+        function closeForm(){backdrop.classList.remove('show');formContainer.classList.remove('show');document.body.style.overflow='';setTimeout(()=>{mainForm.reset();msg.style.display='none';},300);}
+
+        document.getElementById('openFormBtn').addEventListener('click',openForm);
+        document.getElementById('openFormBtn2').addEventListener('click',openForm);
+        document.getElementById('closeFormBtn').addEventListener('click',closeForm);
+        backdrop.addEventListener('click',closeForm);
+        document.addEventListener('keydown',(e)=>{if(e.key==='Escape')closeForm();});
+
+        mainForm.addEventListener('submit',async (e)=>{
+            e.preventDefault();
+            if(submitBtn.disabled) return; // double submit rokne ke liye
+
+            const name=document.getElementById('inp_name').value.trim();
+            const phone=document.getElementById('inp_phone').value.replace(/\D/g,'');
+            const age=document.getElementById('inp_age').value;
+            const gender=document.getElementById('inp_gender').value;
+            const profession=document.getElementById('inp_profession').value;
+            if(!name||phone.length<10||!age||!gender||!profession){alert('Please fill all fields correctly.');return;}
+
+            submitBtn.disabled=true;submitBtn.textContent='Submitting...';
+
+            const eventId='lead_'+Date.now()+'_'+Math.random().toString(36).slice(2,8);
+            const fd=new FormData();
+            fd.append('name',name);fd.append('phone',phone);fd.append('age',age);
+            fd.append('gender',gender);fd.append('profession',profession);
+            fd.append('source','Thank-You Page');fd.append('timestamp',new Date().toISOString());
+            fd.append('event_id',eventId);
+
+            // 3 baar try karega, tabhi success maanega jab request gayi ho
+            let ok=false;
+            for(let i=0;i<3&&!ok;i++){
+                try{
+                    const ctrl=new AbortController();
+                    const t=setTimeout(()=>ctrl.abort(),8000);
+                    await fetch(SCRIPT_URL,{method:'POST',body:fd,mode:'no-cors',signal:ctrl.signal});
+                    clearTimeout(t);
+                    ok=true;
+                }catch(err){
+                    await new Promise(r=>setTimeout(r,1000*(i+1)));
+                }
+            }
+
+            submitBtn.disabled=false;submitBtn.textContent='✅ Submit Details';
+
+            if(ok){
+                if(typeof fbq!=='undefined'){fbq('track','Lead',{},{eventID:eventId});} // Lead sirf submit ke baad
+                msg.style.display='block';
+                setTimeout(closeForm,1800);
+            }else{
+                alert('Network issue. Please check your internet and try again.');
+            }
+        });
+    </script>
+</body>
+</html>
